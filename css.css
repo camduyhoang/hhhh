@@ -1,0 +1,151 @@
+/*-----layout------*/
+
+body {
+    margin: 5px;
+    padding: 0px;
+}
+
+#layout {
+    max-width: 1000px;
+    margin: 0px auto;
+    border: 1px solid gray;
+}
+
+
+/*------header-------*/
+
+header {
+    background: url(img/tải\ xuống\ \(1\).jpg);
+    background-size: 100% 100%;
+    height: 280px;
+}
+
+header>.logo {
+    padding: 5px 5px;
+}
+
+
+/*-----menu--------*/
+
+nav {
+    background-color: blue;
+    line-height: 40px;
+}
+
+nav a {
+    font-variant: small-caps;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: wheat;
+    text-decoration: underline;
+}
+
+nav .right {
+    float: right
+}
+
+
+/*------Nội dung------*/
+
+article {
+    min-height: 400px;
+    width: 75%;
+    float: left;
+}
+
+
+/*-----cạnh bên*-----*/
+
+aside {
+    min-height: 400px;
+    width: 25%;
+    float: right;
+    background: white;
+}
+
+.vmnu {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px orangered;
+    background-color: wheat;
+}
+
+.vmnu a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: rgb(95, 105, 15);
+    background: url(img/chon.png) no-repeat 8px center;
+    background-size: 15px;
+    display: block;
+    border-bottom: 1px dotted green;
+    padding: 20px 20px 18px 30px;
+}
+
+.vmnu a:hover {
+    text-decoration: underline;
+    font-variant: small-caps;
+    color: white;
+    background: url(img/chon1.png) no-repeat 8px center;
+    background-size: 15px;
+    display: block;
+    border-bottom: 1px dotted white;
+    padding: 8px 5px 8px 30px;
+    background-color: rgb(107, 4, 39);
+}
+/*-----Doan ket-----*/
+div .vienduoi{
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+    clear: both;
+    box-shadow: 0 0 2px gray;
+}
+footer {
+    clear: both;
+    margin-top: 20px;
+}
+.ket{
+    text-align: center;
+    font-size: 10px;
+}
+.doan{
+    margin-left: 400px;
+}
+/*----chu phan noi dung-----*/
+p{
+    text-align: justify;
+    font-size: medium;
+}
+/*------gioi thieu------*/
+h2{
+    font-variant: small-caps;
+    width: auto;
+    color: purple;
+    margin: 5px;
+    margin-left: 30px;
+}
+.gioithieu{
+    width: 980px;
+    margin:5px;
+
+}
+h3{
+    color: green;
+    font-size: large;
+}
+/*----phan chu chay----*/
+.chuchay{
+    position: relative;
+    margin-bottom: 5px;
+    background-color: rgb(245, 240, 232);
+}
+.text{
+    color: purple;
+    font-size: 12px;
+}
